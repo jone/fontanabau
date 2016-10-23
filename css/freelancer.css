@@ -123,14 +123,12 @@ header .intro-text .skills {
 .navbar-custom a:focus {
   outline: none;
 }
-.navbar-custom .navbar-brand {
-  color: #D9AA00;
-}
+.navbar-custom .navbar-brand,
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #EEE;
+  color: #D9AA00;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
