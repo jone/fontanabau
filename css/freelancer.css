@@ -33,7 +33,8 @@ h6 {
   font-weight: 700;
 }
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-dark {
   padding: 0;
   border: none;
   border-top: solid 5px;
@@ -42,7 +43,8 @@ hr.star-primary {
   margin: 25px auto 30px;
 }
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-dark:after {
   content: "\f005";
   font-family: FontAwesome;
   display: inline-block;
@@ -52,16 +54,21 @@ hr.star-primary:after {
   padding: 0 0.5em;
 }
 hr.star-light,
+hr.star-dark,
 hr.star-primary {
   border-color: #555;
 }
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-dark:after {
   background-color: #CCC;
   color: #ffc803;
 }
 hr.star-primary:after {
   background-color: white;
+}
+hr.star-dark:after {
+  background-color: #212F3F;
 }
 .img-centered {
   margin: 0 auto;
@@ -292,21 +299,13 @@ section.success {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
-footer {
+#contact {
+  background-color: #212F3F;
   color: white;
 }
-footer h3 {
-  margin-bottom: 30px;
-}
-footer .footer-above {
-  padding-top: 50px;
-  background-color: #212F3F;
-}
-footer .footer-col {
-  margin-bottom: 50px;
-}
-footer .footer-below {
+footer {
   padding: 25px 0;
+  color: white;
   background-color: #18232e;
 }
 .btn-outline {
