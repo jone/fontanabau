@@ -7,6 +7,7 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
   color: #555;
+  background-color: #EEE;
 }
 p {
   font-size: 20px;
@@ -65,7 +66,7 @@ hr.star-dark:after {
   color: #ffc803;
 }
 hr.star-primary:after {
-  background-color: white;
+  background-color: #EEE;
 }
 hr.star-dark:after {
   background-color: #212F3F;
@@ -126,13 +127,13 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: #EEE;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
+  color: #EEE;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #D9AA00;
@@ -140,7 +141,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: white;
+  color: #EEE;
 }
 .navbar-custom .navbar-nav li.active a {
   color: #555;
@@ -153,15 +154,15 @@ header .intro-text .skills {
   background: #D9AA00;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
+  color: #EEE;
   text-transform: uppercase;
   font-size: 10px;
-  border-color: white;
+  border-color: #EEE;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
   background-color: #CCC;
-  color: white;
+  color: #EEE;
   border-color: #CCC;
 }
 @media (min-width: 768px) {
@@ -233,7 +234,7 @@ section.success {
   text-align: center;
   top: 50%;
   margin-top: -12px;
-  color: white;
+  color: #EEE;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
@@ -301,17 +302,17 @@ form .row:first-child .floating-label-form-group {
 }
 #contact {
   background-color: #212F3F;
-  color: white;
+  color: #EEE;
 }
 footer {
   padding: 25px 0;
-  color: white;
+  color: #EEE;
   background-color: #18232e;
 }
 .btn-outline {
-  color: white;
+  color: #EEE;
   font-size: 20px;
-  border: solid 2px white;
+  border: solid 2px #EEE;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -321,11 +322,11 @@ footer {
 .btn-outline:active,
 .btn-outline.active {
   color: #CCC;
-  background: white;
-  border: solid 2px white;
+  background: #EEE;
+  border: solid 2px #EEE;
 }
 .btn-primary {
-  color: white;
+  color: #EEE;
   background-color: #212F3F;
   border-color: #212F3F;
   font-weight: 700;
@@ -335,7 +336,7 @@ footer {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: white;
+  color: #EEE;
   background-color: #0f161e;
   border-color: #0c1117;
 }
@@ -364,10 +365,10 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-primary .badge {
   color: #212F3F;
-  background-color: white;
+  background-color: #EEE;
 }
 .btn-success {
-  color: white;
+  color: #EEE;
   background-color: #CCC;
   border-color: #CCC;
   font-weight: 700;
@@ -377,7 +378,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-  color: white;
+  color: #EEE;
   background-color: #b3b3b3;
   border-color: #adadad;
 }
@@ -406,13 +407,13 @@ fieldset[disabled] .btn-success.active {
 }
 .btn-success .badge {
   color: #CCC;
-  background-color: white;
+  background-color: #EEE;
 }
 .btn-social {
   display: inline-block;
   height: 50px;
   width: 50px;
-  border: 2px solid white;
+  border: 2px solid #EEE;
   border-radius: 100%;
   text-align: center;
   font-size: 20px;
