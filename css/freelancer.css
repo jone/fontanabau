@@ -65,6 +65,9 @@ hr.star-dark:after {
   background-color: #CCC;
   color: #ffc803;
 }
+hr.star-light:after {
+  color: #e8b600;
+}
 hr.star-primary:after {
   background-color: #EEE;
 }
