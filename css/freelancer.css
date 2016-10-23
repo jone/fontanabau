@@ -68,6 +68,9 @@ hr.star-dark:after {
 hr.star-primary:after {
   background-color: #EEE;
 }
+.modal-body hr.star-primary:after {
+  background-color: white;
+}
 hr.star-dark:after {
   background-color: #212F3F;
 }
