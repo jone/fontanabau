@@ -157,14 +157,16 @@ header .intro-text .skills {
 .navbar-custom .navbar-toggle {
   color: #EEE;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 18px;
+  padding: 2px 8px;
+  margin-right: 20px;
   border-color: #EEE;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #CCC;
-  color: #EEE;
-  border-color: #CCC;
+  background-color: #D9AA00;
+  color: #555;
+  border-color: #ffd640;
 }
 @media (min-width: 768px) {
   .navbar-custom {
