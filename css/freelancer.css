@@ -312,6 +312,10 @@ footer {
   color: #EEE;
   background-color: #18232e;
 }
+footer p {
+  font-size: 10pt;
+  color: #555;
+}
 .btn-outline {
   color: #EEE;
   font-size: 20px;
